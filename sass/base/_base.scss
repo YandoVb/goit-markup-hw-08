@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background-color: #ffffff;
+  color: $primary-color;
+  overflow: visible;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.btn {
+  font-family: inherit;
+  font-style: normal;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @media screen and (max-width: $pre-tablet) {
+    max-width: 480px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 1200px;
+  }
+}
+
+.section {
+  padding: 60px 0;
+  z-index: 1;
+
+  @media screen and (min-width: $desktop) {
+    padding: 94px 0;
+  }
+}
